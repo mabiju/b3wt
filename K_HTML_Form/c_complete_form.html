@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a contact form in HTML</title>
+</head>
+
+<body>
+
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">Name : </label></td>
+                <td><input type="text" name="name" id="name" placeholder="Enter name.."></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email : </label></td>
+                <td><input type="email" name="email" id="email" placeholder="Enter email.."></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password : </label></td>
+                <td><input type="password" name="password" id="pass" placeholder="Enter password.."></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age : </label></td>
+                <td><input type="number" name="age" id="age" min="0" max="100" placeholder="Enter age.."></td>
+            </tr>
+            <tr>
+                <td><label for="date">Enter DoB:</label></td>
+                <td><input type="date" name="dob" id="date" min="2000-02-14" max="2024-12-1"></td>
+            </tr>
+            <tr>
+                <td><label for="subtime">Submission Time : </label></td>
+                <td><input type="time" name="subtime" id="subtime"></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Enter your telephone number:</label></td>
+                <td><input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td>
+            </tr>
+            <tr>
+                <td><label for="range">Drag your range(1-100):</label></td>
+                <td><input type="range" name="range" id="range" min="1" max="100"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" id="" value="0" checked>Female
+                    <input type="radio" name="gender" id="" value="1">Male
+                    <input type="radio" name="gender" id="" value="2">Others
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Hobbies:</label></td>
+                <td>
+                    <input type="checkbox" name="hobby1" id="" value="0">Playing Soccer
+                    <input type="checkbox" name="hobby2" id="" value="1">Playing Criket
+                    <input type="checkbox" name="hobby3" id="" value="2">Momo Khane
+                    <input type="checkbox" name="hobby4" id="" value="3">Chatpate Khane
+                    <input type="checkbox" name="hobby5" id="" value="4">Playing Computer Games
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Address:</label></td>
+                <td><textarea name="" id="" cols="25" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">Program:</label></td>
+                <td>
+                    <select name="" id="">
+                        <option value="0" selected>Select a program</option>
+                        <option value="education">Education</option>
+                        <option value="science">Science</option>
+                        <option value="humanities">Humanities</option>
+                        <option value="management">Management</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Photo:</label></td>
+                <td><input type="file" name="" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="color">Pick a color:</label></td>
+                <td><input type="color" name="color" id="color"></td>
+            </tr>
+            <tr>
+                <td><label for="team">Select your team:</label></td>
+                <td>
+                    <input type="text" name="team" id="team" list="npl-teams">
+                    <datalist id="npl-teams">
+                        <option value="Karnali Yaks">
+                        <option value="Pokhara Avengers">
+                        <option value="Janakpur Bolts">
+                        <option value="Chitwan Rhinos">
+                        <option value="Lumbini Lions">
+                        <option value="Sudurpaschim Royals">
+                        <option value="Kathmandu Gurkhas">
+                        <option value="Biratnagar Kings">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="hfield">This is hidden field</label></td>
+                <td><input type="hidden" name="hiddenField" value="hiddenValue"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

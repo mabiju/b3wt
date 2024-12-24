@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form attributes</title>
+</head>
+<body>
+    <table>
+        <form action="" autocomplete="on">
+            <tr>
+                <td><label for="name"></label>Name :</td>
+                <td><input type="text" name="name" id="name" placeholder="Enter your name ....." autocomplete="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="address"></label>Address :</td>
+                <td><input type="text" name="address" id="address" placeholder="Enter your address ....." autocomplete="street-address"></td>
+            </tr>
+            <tr>
+                <td><label for="email"></label>Email :</td>
+                <td><input type="email" name="email" id="email" placeholder="Enter your email ....." autocomplete="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password"></label>Password :</td>
+                <td><input type="password" name="password" id="password" placeholder="Enter your password ....." autocomplete="new-password" required></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><button type="submit">Submit</button></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
