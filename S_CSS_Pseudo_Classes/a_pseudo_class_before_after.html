@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        p::before
+        {
+            content: "This is prefix content ";
+            color: red;
+            font-weight: bold;
+        }
+        p::after
+        {
+            content: " is added suffix sanothimi";
+            color: green;
+        }
+        h5::before
+        {
+            content: '\2623 ';
+        }
+    </style>
+</head>
+<body>
+    <p>This is test text</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <h5>15 were killed in an Accident yesternight.</h5>
+    <h5>A new AI bot is going down cause of economic disaster.</h5>
+    <h5>Proven method to be a healthy mom.</h5>
+    <h5>Sanothimi campus is about to launch its new mobile app.</h5>
+</body>
+</html>
