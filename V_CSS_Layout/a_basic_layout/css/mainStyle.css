@@ -21,20 +21,40 @@ body {
     width: 300px;
     height: 200px;
     float: left;
-    background-color: blue;
+    background-color: #1cf1f1;
+}
+
+.logoWrap img{
+    width: 300px;
+    height: 200px;
 }
 
 .bannerWrap {
     width: 900px;
     height: 200px;
     float: right;
-    background-color: red;
+    background-color: #c70dbe;
+}
+
+.bannerWrap img{
+    width: 900px;
+    height: 200px;
 }
 
 #menuWrap {
     width: 1200px;
     height: 80px;
     background-color: blueviolet;
+}
+
+#menuWrap ul li{
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+}
+
+#menuWrap ul li a{
+    text-decoration: none;
 }
 
 #msgWrap {
