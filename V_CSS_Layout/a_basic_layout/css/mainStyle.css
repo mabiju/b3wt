@@ -47,20 +47,39 @@ body {
     background-color: blueviolet;
 }
 
+#menuWrap ul{
+    margin: 0;
+    padding-top: 27px;
+}
 #menuWrap ul li{
     list-style: none;
     float: left;
     padding-right: 20px;
 }
+#menuWrap ul li:hover{
+    background-color: #161cc7;
+}
 
 #menuWrap ul li a{
     text-decoration: none;
+    font-size: 28px;
 }
 
 #msgWrap {
-    width: 1200px;
-    height: 400px;
-    background-color: #05512b;
+    width: 1160px;
+    height: 360px;
+    background-color: #dadada;
+    padding: 20px;
+    color: black;
+    font-size: 28px;
+    /* overflow: hidden; */
+    text-align: justify;
+}
+#msgWrap img{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
 }
 
 #programBoxWrap {
@@ -73,8 +92,17 @@ body {
     height: 400px;
     float: left;
 }
+.box img{
+    width: 400px;
+    height: 400px;
+}
 #footerWrap {
     width: 1200px;
     height: 50px;
     background-color: black;
+}
+#footerWrap p{
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
 }
