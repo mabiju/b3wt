@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with media query</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #mainWrap {
+            width: 90%;
+            max-width: 1920px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 20%;
+            height: 200px;
+            background-color: red;
+            float: left;
+        }
+
+        .banner {
+            width: 80%;
+            height: 200px;
+            background-color: green;
+            float: left;
+        }
+
+        @media (max-width:767px) {
+
+            .logo,
+            .banner {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainWrap">
+        <div class="logo">Logo here</div>
+        <div class="banner">Banner here</div>
+    </div>
+</body>
+
+</html>
