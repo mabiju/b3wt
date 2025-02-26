@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing HTML element by ID</title>
+</head>
+
+<body>
+    <p id="One">Hello Sanothimi</p>
+    <p id="Two"></p>
+
+    <script>
+        var idElement = document.getElementById("One");
+        document.getElementById("Two").innerHTML = "The text is " + idElement.innerHTML;
+    </script>
+</body>
+
+</html>
