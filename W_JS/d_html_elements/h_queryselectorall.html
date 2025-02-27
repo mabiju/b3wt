@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelectorAll</title>
+</head>
+
+<body>
+    <p class="One">Hello Nepal</p>
+    <p id="Two"></p>
+
+    <script>
+        var a = document.querySelectorAll("p.One");
+        document.getElementById("Two").innerHTML = "The text is " + a[0].innerHTML; 
+    </script>
+</body>
+
+</html>
