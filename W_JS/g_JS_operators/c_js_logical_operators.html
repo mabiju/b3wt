@@ -11,6 +11,8 @@
     <script>
         // &&, ||, !
 
+        /* // use of logical AND operator (&&)
+        
         age = 18;
         citizenship = 'n';
 
@@ -18,6 +20,36 @@
             document.write("Eligible to get voter card.");
         }else{
             document.write("not eligible to get voter card.");
+        } */
+
+
+        /* // use of logical OR operator (||)
+        
+        qualification = 'm';
+        experience = 0;
+
+        if(qualification=='m' || experience >=5){
+            document.write("You are eligible for interview.");
+        }
+        else if(qualification=='b' && experience >=3)
+        {
+            document.write("You are elible for interview.");
+        }
+        else{
+            document.write("Better luck next time.");
+        } */
+
+        // use of logical NOT operator (!)
+        name = "Suman";
+        isMale = false;
+        if (isMale == true) {
+            document.write("Hello Mr. " + name);
+        }
+        else if (!isMale) {
+            document.write("Hello " + name);
+        }
+        else {
+            document.write("Invalid input.");
         }
     </script>
 </body>
