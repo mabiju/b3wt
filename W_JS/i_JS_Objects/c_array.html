@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array object</title>
+</head>
+
+<body>
+    <p id="hi"></p>
+    <script>
+        /* var names = ["Ram", "Sita", "Hari", "Gita", "Nita"];
+        // document.write(names.length);
+
+        for (i = 0; i < names.length; i++) {
+            document.write(names[i] + "<br/>");
+        } */
+
+        /* const names = ["Ram", "Sita", "Laxman", "Hanuman", "Hari", "Gita", "Nita"];
+        document.getElementById("hi").innerHTML = names; */
+
+        const Student ={
+            name : "Ram",
+            address : "Kathmandu",
+            dob : new Date('1991-02-14')
+        }
+
+        document.getElementById("hi").innerHTML = Student['name'] + " lives in " + Student['address'] + " and Date of Birth is " + Student['dob'];
+
+
+
+    </script>
+</body>
+
+</html>
