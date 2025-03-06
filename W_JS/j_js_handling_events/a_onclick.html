@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick event</title>
+</head>
+<body>
+    <!-- Method 1 -->
+    <!-- <button onclick="alert('hello k xa khbr?')">Click Me!</button> -->
+
+    <!-- Method 2 -->
+    <!-- <button type="button" onclick="clickfunc()">Click Me!</button>
+    <script>
+        function clickfunc(){
+            alert("hello Sanothimi");
+        }
+    </script> -->
+
+    <!-- Method 3 -->
+    <button type="button" id="myBtn">Click Me!</button>
+    <script>
+        function sayHello(){
+            alert("Hello Sanothimi");
+        }
+
+        document.getElementById("myBtn").onclick = sayHello;
+    </script>
+</body>
+</html>
