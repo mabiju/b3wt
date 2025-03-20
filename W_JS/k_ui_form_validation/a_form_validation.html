@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Form Validation</title>
+    <script>
+        function loginValidation(){
+            var user = document.MyForm.username.value;
+            var pass = document.MyForm.password.value;
+            // alert(user); to check user input value is available or not
+
+            if(user == null || user == ""){
+                alert("Username cannot be blank");
+                return false;
+            }
+            else if(pass.length < 8){
+                alert("Password must be more than 8 characters");
+                return false;
+            }
+            else{
+                alert("Hello " + user + " your password is " + pass);
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="MyForm" action="" onsubmit="return loginValidation(); " method="POST">
+        Username: <input type="text" name="username"> <br><br>
+        Password: <input type="password" name="password"><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
