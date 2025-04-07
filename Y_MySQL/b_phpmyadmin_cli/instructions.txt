@@ -1,0 +1,46 @@
+1. to create a new database
+---------------------------
+create database `db_college`;
+
+2. to create a new table
+------------------------
+create table `tbl_teachers`
+(
+    `tid` int(2) not null auto_increment primary key,
+    `tname` varchar(255) not null,
+    `address` varchar(255) not null,
+    `email` varchar(100)
+);
+
+3. to insert data into the data table
+-------------------------------------
+insert into `tbl_teachers`(tname`,`address`,`email`)values('ram','pokhara','ram@gmail.com');
+
+4. to insert multiple data into the data table
+----------------------------------------------
+insert into `tbl_teachers`(tname`, address, email) VALUES 
+('sita','chitwan','sita@yahoo.com'),
+('hari','dharan','hari@yahoo.com'),
+('laxman','chitwan','laxman@yahoo.com'),
+('nita','butwal','nita@yahoo.com'),
+('mina','bhaktapur','mina@yahoo.com');
+
+5. to see all the data from database table
+------------------------------------------
+select * from `tbl_teachers`;
+
+6. to see only a data record based on id
+----------------------------------------
+select * from `tbl_teachers` where tid = 3;
+
+7. to delete only a data record based on id
+-------------------------------------------
+delete from `tbl_teachers` where tid = 3;
+
+8. to delete all the data records from table
+--------------------------------------------
+truncate `tbl_teachers`;
+
+9. to drop a database
+---------------------
+drop database `db_college`;
