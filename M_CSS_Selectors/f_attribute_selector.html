@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute CSS Selector</title>
+    <style>
+        /* Attribute CSS Selector */
+        input[type=text]
+        {
+            width: 300px;
+            border-radius: 5px;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="username">Username :</label></td>
+                    <td><input type="text" name="user" id="username" placeholder="Enter your name..."></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password :</label></td>
+                    <td><input type="password" name="pass" id="pass" placeholder="Enter your password..."></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Login">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+        </form>
+    </table>
+</body>
+</html>
