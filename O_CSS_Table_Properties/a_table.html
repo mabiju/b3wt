@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table properties with CSS</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+        }
+        thead{
+            background-color: red;
+        }
+        table{
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+            border-collapse: collapse;
+            background-color: beige;
+        }
+        tfoot{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Roll</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ram</td>
+                <td>Ghopteodar</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sita</td>
+                <td>Pokhara</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Hari</td>
+                <td>Chitwan</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Laxman</td>
+                <td>Kathmandu</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Roll</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Class</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text properties</title>
+    <style>
+        p{
+            /* Instruction: comment or uncomment to check the output properly */
+            /* to set the color of the text */
+            /* with Predefined Color names */
+            color: red;
+
+            /* Colors represented by a six-digit hexadecimal code, starting with # */
+            color: #ff0000;
+
+            /* A shorthand notation for hexadecimal colors, using three digits */
+            color: #f00;
+
+            /* Specifies colors using the RGB (Red, Green, Blue) model with values ranging from 0 to 255. */
+            color: rgb(255, 100, 0);
+
+            /* Similar to RGB but includes an alpha channel for transparency. */
+            color: rgba(0, 0, 255, 0.5);
+
+            /* Specifies colors using the HSL (Hue, Saturation, Lightness) model. */
+            color: hsl(120, 100%, 50%);
+
+            /* Similar to HSL but includes an alpha channel for transparency. */
+            color: hsla(240, 100%, 50%, 0.3);
+
+            /* defining style of font, i.e. normal, italic, oblique */
+            font-style: italic;
+
+            /* to specify the size of the font */
+            font-size: 28px;
+
+            /* to specify the weight of the font, i.e. bold, bolder, numeric_value */
+            font-weight: bold;
+
+            /* to specify the typeface used for the text, i.e. (local, web) */
+            font-family: 'Courier New', Courier, monospace;
+
+
+            /* to specify the horizontal alignment i.e. left, right, center and justify */
+            text-align: center;
+
+            /* to indents the first line of a block of text or paragraph */
+            text-indent: 150px;
+
+            /* to adjust the space between letters */
+            letter-spacing: 20px;
+
+            /* to adjust the space between words */
+            word-spacing: 20px;
+
+            /* to adjust the height of the line of text */
+            line-height: 1.5;
+
+            /* adds decoration to the text, i.e. underline, overline, line-through, none */
+            text-decoration: underline;
+
+            /* to control the capitalization of text, i.e. uppercase, lowercase, capitalize */
+            text-transform: uppercase;
+
+            /* defines the direction of the text i.e. rtl, ltr*/
+            direction: rtl;
+
+            /* manages the embedding and overriding of bidirectional text */
+            unicode-bidi: bidi-override;
+
+            /* to apply text shadow effect to the text */
+            text-shadow: 2px 3px 4px red;
+
+            /* to control whitespace within an element i.e. normal, pre, nowrap */
+            white-space: pre;
+            white-space: nowrap;
+
+            /* to control the overflow of the text within a specified dimension, i.e. ellipsis, clip */
+            /* for block */
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+        /* p .apple, and p.apple is different, be careful*/
+        p.apple{
+            /* text-align-last: left; */
+            text-align-last: right;
+            /* text-align-last: center;
+            text-align-last: justify; */
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eligendi in reprehenderit earum culpa maxime iure omnis provident a enim expedita labore error quia delectus dolorem doloremque quaerat ea nesciunt natus ad sapiente iste fugit? Possimus voluptate quos eum, officia magni necessitatibus, rem dolore facilis doloremque explicabo ad expedita praesentium enim. Magnam labore dolorem ipsa non natus officia! Fugiat, aut harum cupiditate dolores eligendi eum voluptatem aspernatur sapiente vitae asperiores velit eius quidem doloribus nam quas odit labore voluptatum suscipit voluptate dolore. Debitis deleniti at aliquid?</p>
+    <p class="apple">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, eligendi in reprehenderit earum culpa maxime iure omnis provident a enim expedita labore error quia delectus dolorem doloremque quaerat ea nesciunt natus ad sapiente iste fugit? Possimus voluptate quos eum, officia magni necessitatibus, rem dolore facilis doloremque explicabo ad expedita praesentium enim. Magnam labore dolorem ipsa non natus officia! Fugiat, aut harum cupiditate dolores eligendi eum voluptatem aspernatur sapiente vitae asperiores velit eius quidem doloribus nam quas odit labore voluptatum suscipit voluptate dolore. Debitis deleniti at aliquid?</p>
+</body>
+</html>
