@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Before After</title>
+    <style>
+        p::before {
+            content: 'This is a prefix to be added before paragraph tag. ';
+            color: red;
+            font-weight: bold;
+        }
+
+        p::after {
+            content: 'This is a suffix to be added after paragraph tag. ';
+            color: green;
+            font-weight: lighter;
+        }
+        h5::before{
+            content: '\2600';
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is a test sentence.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, cumque?</p>
+    <h5>15 were killed in an accident yesternight.</h5>
+    <h5>Sanothimi campus is about to launch its first mobile application.</h5>
+    <h5>10 proven method to be a perfect husband.</h5>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class focus and active</title>
+    <style>
+        .inputTextClass:focus
+        {
+            background-color: red;
+            color: white;
+        }
+        .btn
+        {
+            background-color: blue;
+            color: red;
+            transition: all 0.3s;
+        }
+        .btn:active
+        {
+            background-color: red;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <input class="inputTextClass" type="text" name="" id="" placeholder="Enter your name here....">
+    <br>
+    <br>
+    <button class="btn">Submit</button>
+</body>
+</html>
