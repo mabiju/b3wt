@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties in CSS</title>
+    <style>
+        span.Apple{
+            background-color: red;
+            border: 2px solid green;
+            border-radius: 5px;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            display: inline;
+        }
+        span.Ball{
+            background-color: red;
+            border: 2px solid green;
+            border-radius: 2px;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            display: inline-block;
+        }
+        span.Cat{
+            background-color: red;
+            border: 2px solid green;
+            border-radius: 2px;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis debitis quidem ex porro, nam quae voluptate minus dolor dolorem ea! Et quo quod rem nobis, veniam delectus necessitatibus neque.</p> -->
+    <h2>Display : inline</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis debitis quidem ex porro, <span class="Apple">nam quae voluptate minus dolor dolorem ea!  Et quo quod rem nobis, veniam delectus </span> text <span class="Apple">nam quae voluptate minus dolor dolorem ea!  Et quo quod rem nobis, veniam delectus </span>necessitatibus neque.</p>
+    <h2>Display : inline-block</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis debitis quidem ex porro, <span class="Ball">nam quae voluptate minus dolor dolorem ea!  Et quo quod rem nobis, veniam delectus </span> text <span class="Ball">nam quae voluptate minus dolor dolorem ea!  Et quo quod rem nobis, veniam delectus </span>necessitatibus neque.</p>
+    <h2>Display : block</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis debitis quidem ex porro, <span class="Cat">nam quae voluptate minus dolor dolorem ea!  Et quo quod rem nobis, veniam delectus </span> text <span class="Cat">nam quae voluptate minus dolor dolorem ea!  Et quo quod rem nobis, veniam delectus </span>necessitatibus neque.</p>
+</body>
+</html>

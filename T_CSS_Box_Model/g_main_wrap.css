@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c2c2c2;
+}
+#mainWrap{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    background-color: red;
+    padding: 50px
+}
