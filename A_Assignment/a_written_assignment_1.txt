@@ -1,0 +1,15 @@
+Written Assignment - 1
+----------------------
+1. What is HTML? Differentiate between website and web application.
+2. Define the term, Webpage, Website, Static Website, Dynamic Website, HTTP and HTTPS.
+3. What is CSS? Write different techniques to integrate CSS property to an HTML file.
+4. What is HTML tags? Explain empty and container tags briefly.
+5. Differentiate between pseudo classes and pseudo elements.
+6. Explain different CSS text properties.
+7. Exemplify the steps to insert an image to an HTML file.
+8. Define <table> and <a> tags in brief.
+9. What is CSS selectors? How to modify table properties using css, explain with an example.
+10. Explain pros and cons of using fixed and fluid layout in Website Designing.
+
+Assigned : 2082/08/25, Thursday
+Deadline : 2082/09/04, Friday

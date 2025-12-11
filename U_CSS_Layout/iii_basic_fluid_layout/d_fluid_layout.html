@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluid Layout in HTML</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #mainWrap{
+            width: 90%;
+            height: auto;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+        .logo{
+            width: 20%;
+            height: 100px;
+            background-color: red;
+            float: left;
+        }
+        .banner{
+            width: 80%;
+            height: 100px;
+            background-color: green;
+            float: left;
+        }
+        @media (max-width:767px) {
+            .logo, .banner{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="mainWrap">
+        <div class="logo">Logo Here</div>
+        <div class="banner">Banner Here</div>
+    </div>
+</body>
+</html>

@@ -94,3 +94,63 @@ nav ul li a{
     width: 150px;
     height: auto;
 }
+#imageWrap{
+    width: 100%;
+    height: 150px;
+}
+#imageWrap .imgBox{
+    width: 185px;
+    height: auto;
+    float: left;
+}
+#imageWrap .imgBox img{
+    width: 185px;
+    height: auto;
+}
+footer #footWrap{
+    width: 100%;
+    height: 200px;
+    background-color: #1f1e1e;
+    color: white;
+}
+.col{
+    width: 180px;
+    height: auto;
+    float: left;    
+}
+.col p{
+    font-size: 14px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.col img{
+    width: 100px;
+    height: auto;
+}
+.col ul li{
+    list-style: none;
+}
+.col ul li a{
+    color: white;
+    text-decoration: none;
+}
+.col ul li a:hover{
+    color: #b1b1bb;
+    text-decoration: underline;
+}
+.col ul li a::before{
+    content: '\2713  ';
+
+}
+#credit{
+    width: 100%;
+    height: 50px;
+    background-color: #0e0d0d;
+    color: white;
+    padding-top: 1px;
+    text-align: center;
+}
+#credit a{
+    color: white;
+}
