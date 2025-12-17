@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing HTML element by tag name</title>
+</head>
+<body>
+    <p>Hello Sanothimi</p>
+    <p id="hi"></p>
+    <script>
+        var a = document.getElementsByTagName("p");
+        document.getElementById("hi").innerHTML = "The text is " + a[0].innerHTML;
+    </script>
+</body>
+</html>
