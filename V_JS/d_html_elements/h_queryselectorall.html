@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessing HTML element by query selecter all</title>
+</head>
+
+<body>
+    <p class="one">Hello Nepal</p>
+    <p id="two"></p>
+    <script>
+        var a = document.querySelectorAll("p.one");
+        document.getElementById("two").innerHTML = "The text is " + a[0].innerHTML;
+    </script>
+</body>
+
+</html>
