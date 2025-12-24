@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS window object</title>
+</head>
+
+<body>
+    <p id="hi"></p>
+    <script>
+        let password = "pass@123";
+        let ciphertext = window.btoa(password);
+        let normaltext = window.atob(ciphertext);
+        document.getElementById("hi").innerHTML = normaltext;
+    </script>
+</body>
+
+</html>
