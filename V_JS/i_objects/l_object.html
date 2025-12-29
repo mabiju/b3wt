@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+        var a = {
+            fname: "Ram",
+            wife: "Sita",
+            age: 23,
+            address: ['pokhara','chitwan','kathmandu','bhaktapur'],
+            hello: function(){
+                return "Helo Sanothimi";
+            },
+            spouse: function(){
+                return this.wife + " is the wife of " + this.fname + ".";
+            }
+        };
+
+        // document.write(a.hello()); // Hello Sanothimi;
+        // document.write(a.spouse()); // Sita is the wife of Ram.
+        // document.write(a.fname); // ram
+        // document.write(a.address[2]); // kathmandu
+        console.log(a);
+    </script>
+</body>
+</html>
