@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Form Validation</title>
+    <script>
+        function validate() {
+            if (document.myform.name.value == "") {
+                alert("Name field cannot be blank");
+                document.myform.name.focus();
+                return (false);
+            }
+            if (document.myform.email.value == "") {
+                alert("Email field cannot be blank");
+                document.myform.email.focus();
+                return (false);
+            }
+            if (document.myform.address.value == "") {
+                alert("Address field cannot be blank");
+                document.myform.address.focus();
+                return (false);
+            }
+            if (document.myform.country.value == "") {
+                alert("Country field cannot be blank");
+                document.myform.country.focus();
+                return (false);
+            }
+            return (true);
+        }
+    </script>
+</head>
+
+<body>
+    <form name="myform" action="" onsubmit="return(validate())">
+        <table>
+            <tr>
+                <th><label for="name">Name:</label></th>
+                <td><input type="text" name="name" id="name" placeholder="Enter your name..."></td>
+            </tr>
+            <tr>
+                <th><label for="email">Email:</label></th>
+                <td><input type="email" name="email" id="email" placeholder="Enter your email..."></td>
+            </tr>
+            <tr>
+                <th><label for="address">Address:</label></th>
+                <td><input type="text" name="address" id="address" placeholder="Enter your address..."></td>
+            </tr>
+            <tr>
+                <th><label for="country">Country:</label></th>
+                <td>
+                    <select name="country" id="country">
+                        <option value="0">Please select your country</option>
+                        <option value="1">Nepal</option>
+                        <option value="2">Bharat</option>
+                        <option value="3">India</option>
+                        <option value="4">Hindustan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>&nbsp;</th>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
